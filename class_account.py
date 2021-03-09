@@ -22,7 +22,7 @@ class Account:
     def makecharges(self):
         while self._balance < 0:
             self._balance -= 20
-            print(self._name, "You are overdrawn and have been charged £20")
+            print(self._name, "you are overdrawn and have been charged £20")
             break
 
     def getbalance(self):

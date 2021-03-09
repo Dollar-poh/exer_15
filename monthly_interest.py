@@ -9,7 +9,7 @@ jo_saver.deposit(300)
 bo_saver.deposit(100000)
 
 # print(Saver.numCreated)
-# print(jo_saver.__class__.__name__) can be used to check correct class has been created
+# print(jo_saver.__class__.__name__)
 
 # nb this needs formatting
 print(jo_saver._account_number)

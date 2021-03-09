@@ -1,7 +1,7 @@
-clearfrom class_account import Account
+from class_account import Account
 
-jo_account = Account(1000, "Jo", "GU232387T", "6 The High Street")
-bo_account = Account(200, "Bo", "JN93876200B", "28 Hill Rise")
+jo_account = Account(1000, "Jo Kicks", "GU232387T", "6 The High Street")
+bo_account = Account(200, "Bo Jo", "JN93876200B", "28 Hill Rise")
 
 print("_"*25)
 print("Current Account details")
